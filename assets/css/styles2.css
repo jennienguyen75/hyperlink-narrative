@@ -21,13 +21,6 @@ body {
   margin: 0;
   color: #C7DBE6;
   margin: 0;
-}
-
-.contents h2 {
-  font-size: 32px;
-  font-weight: normal;
-  margin: 0;
-  color: #C7DBE6;
   margin-bottom: 30px;
 }
 
@@ -58,9 +51,18 @@ body {
   font-weight: normal;
 }
 
+.return-home {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0;
+  color: #C7DBE6;
+  top: 800px;
+  left: 20px;   
+}
+
 .btn1:hover,
 .btn2:hover,
-.contents h2:hover {
+.return-home:hover {
     font-weight: bold;
 }
 
