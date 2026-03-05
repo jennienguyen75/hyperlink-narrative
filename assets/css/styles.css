@@ -6,13 +6,7 @@ body {
   display: flex;
   justify-content: center; /* center horizontally */
   align-items: center;     /* center vertically */
-}
-
-/* Background image */
-.backgroundImage {
-  background-image: url('../img/pecan-looking-up.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('../img/pecan-looking-up.jpg')
 }
 
 /* Text */
