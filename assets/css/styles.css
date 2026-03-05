@@ -1,19 +1,53 @@
 /* styles.css */
+font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+
 body {
 	margin: 0;
 	height: 100vh;
 	display: flex;
 	justify-content: center; /* center horizontally */
 	align-items: center; /* center vertically */
+}
+
+.backgroundImage {
 	background-image: url("./assets/img/pecan-looking-up.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+.backgroundImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
 
-	
-
-* {
-	font-family: Arial;
+p {
+	font-size: 64px;
+	color: white;
 }
+
+h1 {
+	font-size: 96px;
+	color: white;
+}
+
+.circle-btn {
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  color: black; /* text color */
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* hover effect */
+.circle-btn:hover {
+  background-color: black;
+  color: white;
+} 
