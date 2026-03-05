@@ -33,6 +33,8 @@ body {
   grid-column: 1;
   align-self: center;
   justify-self: center;
+  text-align: center;
+  align-items: center;
   color: white;
 }
 
@@ -46,19 +48,20 @@ body {
   margin: 0;
 }
 
-.circle-btn {
-  width: 195px;
-  height: 195px;
-  border-radius: 50%;
-  border: none;
-  background-color: white;
-  color: black;
-  font-size: 40px;
+.enter-btn {
+  display: block;
+  width: 348px;
+  height: 476px;
+
+  background-image: url('../img/enter.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
-.circle-btn:hover {
-  background-color: black;
-  color: white;
+.enter-btn:hover {
+  background-image: url('../img/enter-hover.png');
 }
