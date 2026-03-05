@@ -27,6 +27,7 @@ body {
   font-weight: normal;
   margin: 0;
   color: #C7DBE6;
+  margin-bottom: 30px;
 }
 
 .contents h2:hover {
@@ -37,13 +38,14 @@ body {
   display: flex;
   flex-direction: column;    /* stack buttons vertically */
   gap: 12px;                 /* space between buttons */
+  margin-bottom: 30px;
 }
 
 .btn1 {
   background-color: #FFEE3F;
   border: none;
-  padding: 12px 24px;
-  font-size: 24px;
+  padding: 8px 8px;
+  font-size: 12px;
   cursor: pointer;
   border-radius: 8px;
   font-weight: normal;
@@ -52,8 +54,8 @@ body {
 .btn2 {
   background-color: #FBDFFF;
   border: none;
-  padding: 12px 24px;
-  font-size: 24px;
+  padding: 8px 8px;
+  font-size: 12px;
   cursor: pointer;
   border-radius: 8px;
   font-weight: normal;
