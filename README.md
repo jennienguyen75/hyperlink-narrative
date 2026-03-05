@@ -1,3 +1,3 @@
 # The Life of Pecan
 
-This is a page honoring my cat, who passed a few years back
+This page is made to remember my cat's passing.
