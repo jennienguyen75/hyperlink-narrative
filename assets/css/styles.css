@@ -10,48 +10,58 @@ body {
 
 /* Background image */
 .backgroundImage {
-  background-image: url(../img/pecan-looking-up.jpg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/pecan-looking-up.jpg");
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 100%;
+  z-index: -1;
 }
 
-/* Dark tint overlay */
-.background {
-  background-color: black;
+.backgroundImage::after {
+  content: "";
+  position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.25;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.4; /* dark tint */
 }
 
 /* Text */
 .content {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.content p {
   font-size: 64px;
-  color: white;
   margin: 0;
 }
 
-h1 {
+.content h1 {
   font-size: 96px;
-  color: white;
   margin: 0;
 }
 
-/* Circle button */
 .circle-btn {
   width: 195px;
   height: 195px;
   border-radius: 50%;
   border: none;
   background-color: white;
-  color: black; /* text color */
+  color: black;
   font-size: 40px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-/* Hover effect */
 .circle-btn:hover {
   background-color: black;
   color: white;
