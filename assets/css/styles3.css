@@ -1,3 +1,13 @@
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  height: 100vh;              /* full screen height */
+  display: flex;
+  justify-content: center;    /* horizontal center */
+  align-items: center;        /* vertical center */
+  background-color: #071108;
+}
+
 .container {
   display: flex;
   width: 100vw;
@@ -59,7 +69,8 @@
   background-color: rgba(0,0,0,0.5);
   padding: 20px;
   overflow-y: auto;
-  color: #fff;
-  font-size: 18px;
+  color: white;
+  font-size: 24px;
+  line-height: 62px;
   border-radius: 10px;
 }
