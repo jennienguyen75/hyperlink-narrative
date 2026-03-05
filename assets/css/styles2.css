@@ -34,8 +34,8 @@ body {
 .btn1 {
   background-color: #FFEE3F;
   border: none;
-  padding: 8px 8px;
-  font-size: 24px;
+  padding: 8px 24px;
+  font-size: 12px;
   cursor: pointer;
   border-radius: 8px;
   font-weight: normal;
@@ -44,8 +44,8 @@ body {
 .btn2 {
   background-color: #FBDFFF;
   border: none;
-  padding: 8px 8px;
-  font-size: 24px;
+  padding: 8px 24px;
+  font-size: 12px;
   cursor: pointer;
   border-radius: 8px;
   font-weight: normal;
