@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Left side */
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.left-side h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.paw-prints img {
+  width: 360px;
+  height: 520px;
+  margin: 10px 0;
+}
+
+/* Right side */
+.right-side {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Background image (does not scroll) */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/img/pecan-looking-up.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+/* Scrollable text box */
+.text-box {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  overflow-y: auto;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}
