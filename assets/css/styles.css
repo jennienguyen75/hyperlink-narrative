@@ -9,9 +9,16 @@ body {
 }
 
 .backgroundImage {
-  background-image: url(../img/pecan-looking-up.jpg);
   width: 100%;
   height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url('../img/pecan-looking-up.jpg');
+  background-size: cover;      /* fill screen proportionally */
+  background-position: center; /* center image */
+  background-repeat: no-repeat;
+  z-index: -1;
 }
   
 
