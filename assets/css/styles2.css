@@ -35,7 +35,7 @@ body {
   background-color: #FFEE3F;
   border: none;
   padding: 8px 24px;
-  font-size: 12px;
+  font-size: 24px;
   cursor: pointer;
   border-radius: 8px;
   font-weight: normal;
@@ -45,7 +45,7 @@ body {
   background-color: #FBDFFF;
   border: none;
   padding: 8px 24px;
-  font-size: 12px;
+  font-size: 24px;
   cursor: pointer;
   border-radius: 8px;
   font-weight: normal;
@@ -61,21 +61,21 @@ body {
   color: #C7DBE6;
 }
 
-.ghost-cat {
-  position: absolute;
-  bottom: 50px;
-  right: 300px;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: transform 0.2s;
-
-.ghost-cat:hover { transform: scale(1.1); }
-
 .btn1:hover,
 .btn2:hover,
 .return-home:hover {
     font-weight: bold;
 }
+
+.ghost-cat {
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+
+.ghost-cat:hover { transform: scale(1.1); }
 
