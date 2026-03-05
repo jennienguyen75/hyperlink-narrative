@@ -18,6 +18,7 @@ body {
 .content h1 {
   font-size: 64px;
   font-weight: bold;
+  margin: 0;
   color: #C7DBE6;
   margin: 0;
 }
@@ -28,10 +29,6 @@ body {
   margin: 0;
   color: #C7DBE6;
   margin-bottom: 30px;
-}
-
-.contents h2:hover {
-  font-weight: bold;
 }
 
 .timeline {
@@ -62,7 +59,8 @@ body {
 }
 
 .btn1:hover,
-.btn2:hover {
+.btn2:hover,
+.contents h2:hover {
     font-weight: bold;
 }
 
