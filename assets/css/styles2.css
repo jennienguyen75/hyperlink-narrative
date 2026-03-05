@@ -70,7 +70,7 @@ body {
 .ghost-cat {
   position: absolute;
   bottom: 50px;
-  right: 100px;
+  right: 10px;
   width: 434px;
   height: 244px;
   cursor: pointer;
