@@ -10,7 +10,7 @@ body {
 
 /* Background image */
 .backgroundImage {
-  background-image: url("../img/pecan-looking-up.jpg");
+  background-image: url('../img/pecan-looking-up.jpg');
   background-size: cover;
   background-position: center;
 }
