@@ -15,12 +15,12 @@ body {
   color: white;
 }
 
-.content p {
+.content h1 {
   font-size: 64px;
   margin: 0;
 }
 
-.content h1 {
+.content h2 {
   font-size: 96px;
   margin: 0;
 }
