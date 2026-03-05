@@ -26,7 +26,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../img/pecans-pics.jpg);
+  background-image: url(../img/pecans-pics.png);
   width: 1224px;
 	height: 3991px;
 }
