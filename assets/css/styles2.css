@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-.content h1 {
+.contents h1 {
   font-size: 64px;
   font-weight: bold;
   margin: 0;
@@ -52,12 +52,13 @@ body {
 }
 
 .return-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   font-size: 32px;
   font-weight: normal;
   margin: 0;
   color: #C7DBE6;
-  top: 800px;
-  left: 20px;   
 }
 
 .btn1:hover,
