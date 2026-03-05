@@ -1,4 +1,18 @@
 /* styles.css */
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center; /* center horizontally */
+	align-items: center; /* center vertically */
+	background-image: url("./assets/img/pecan-looking-up.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+	
 
 * {
 	font-family: Arial;
