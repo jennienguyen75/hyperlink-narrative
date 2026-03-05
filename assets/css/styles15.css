@@ -1,1 +1,33 @@
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
 
+h1 {
+  order: 1;
+  top: 100px;
+  left: 160px;
+  font-size: 64px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+
+.back-button {
+  order: 2;
+  top: 150px;
+  right: 160px;
+  font-size: 32px;
+  color: #071108;
+  display: flex;
+
+.backgroundImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/pecans-pics.jpg);
+  width: 1224px;
+	height: 3991px;
+}
+  
