@@ -48,8 +48,8 @@ body {
 
 .enter-btn {
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 
   background-image: url('../img/enter.png');
   background-size: contain;
@@ -61,5 +61,13 @@ body {
 }
 
 .enter-btn:hover {
+  display: block;
+  width: 150px;
+  height: 150px;
+  
   background-image: url('../img/enter-hover.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
