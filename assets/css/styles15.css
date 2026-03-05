@@ -23,11 +23,11 @@ h1 {
   display: flex;
 
 .backgroundImage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../img/pecans-pics.png);
-  width: 1224px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../img/pecans-pics.png);
+	width: 1224px;
 	height: 3991px;
 }
   
