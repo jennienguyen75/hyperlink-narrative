@@ -61,6 +61,18 @@ body {
   color: #C7DBE6;
 }
 
+.ghost-cat {
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+
+.ghost-cat:hover { transform: scale(1.1); }
+
 .btn1:hover,
 .btn2:hover,
 .return-home:hover {
