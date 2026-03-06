@@ -1,10 +1,7 @@
 body {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
-  height: 100vh;              /* full screen height */
-  display: flex;
-  justify-content: center;    /* horizontal center */
-  align-items: center;        /* vertical center */
+  height: 100vh;
 }
 
 .container {
@@ -65,7 +62,6 @@ body {
   z-index: 2;
   width: 80%;
   height: 80%;
-  background-color: rgba(0,0,0,0.5);
   padding: 20px;
   overflow-y: auto;
   color: white;
