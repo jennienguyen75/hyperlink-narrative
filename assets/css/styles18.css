@@ -1,0 +1,88 @@
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-color: #071108;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Left side */
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.left-side h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #FFEE3F;
+  margin-bottom: 30px;
+}
+
+.paw-prints img {
+  width: 360px;
+  height: 520px;
+  margin: 10px 0;
+}
+
+/* Right side */
+.right-side {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Background image (does not scroll) */
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/cat-looking-you.png');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+/* Scrollable text box */
+.text-box {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  overflow-y: auto;
+  color: white;
+  font-size: 24px;
+  line-height: 62px;
+  border-radius: 10px;
+}
+
+.text-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.text-links a {
+  color: #FBDFFF;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.text-links a:hover {
+  font-weight: bold;
+}
