@@ -51,15 +51,15 @@ h2 {
 	font-weight: bold;
 }
 
-.bottom-bar back {
+.bottom-bar .back {
 	ext-align: left;
 }
 
-.bottom-bar select-new-date {
+.bottom-bar .select-new-date {
 	text-align: center;
 	flex: 1;
 }
 
-.bottom-bar next {
+.bottom-bar .next {
 	text-align: right;
 }
