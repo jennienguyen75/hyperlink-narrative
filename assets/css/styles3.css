@@ -44,7 +44,7 @@ body {
 }
 
 /* Background image (does not scroll) */
-.background-image {
+.backgroundImage {
   position: absolute;
   top: 0;
   left: 0;
