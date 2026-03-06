@@ -16,8 +16,10 @@ body {
 }
 
 .content {
-	width: 80%
+	width: 100%
 	margin: 12px auto;
+	padding: 0 40px;
+	box-sizing: border-box;
 	text-align: center;
 }
 
