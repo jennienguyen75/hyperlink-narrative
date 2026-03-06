@@ -8,8 +8,8 @@ body {
 
 .backgroundImage {
 	background-image: url('../img/cat-cuddling.gif');
-	width: 819px;
-	height: 456px;
+	width: 450px;
+	height: 450px;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 12px auto;
