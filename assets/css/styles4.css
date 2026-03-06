@@ -12,11 +12,11 @@ body {
 	height: 456px;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: 20px auto;
+	margin: 12px auto;
 }
 
 .content {
-	margin: 20px auto
+	margin: 12px auto;
 	text-align: center;
 }
 
@@ -33,7 +33,6 @@ h2 {
 }
 
 .bottom-bar {
-	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 100%;
