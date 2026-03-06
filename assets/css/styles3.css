@@ -69,3 +69,19 @@ body {
   line-height: 62px;
   border-radius: 10px;
 }
+
+.text-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.text-links a {
+  color: #C7DBE6;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.text-links a:hover {
+  font-weight: bold;
+}
