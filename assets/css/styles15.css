@@ -24,8 +24,7 @@ body {
   color: black;
 }
 
-.top-bar back-button {
-  right: 150px
+.top-bar .back-button {
   font-size: 32px;
   color: #071108;
   text-decoration: none;
@@ -33,7 +32,7 @@ body {
   cursor: pointer;
 }
 
-.top-bar back-button:hover {
+.top-bar .back-button:hover {
   font-weight: bold;
 }
 
