@@ -15,19 +15,28 @@ body {
   width: 70%;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 40px;
 }
 
+.crow-walking {
+  margin-bottom: 20px;
+}
+
+.crow-walking img {
+  width: 400px;
+  height: 400px;
+}
 
 .text-box {
   width: 60%;
+  max-height: 300px;
+  overflow-y: auto;
   padding: 20px;
   color: #FBDFFF;
   font-size: 24px;
   line-height: 62px;
-  z-index: 2;
 }
 
 .text-links {
@@ -44,18 +53,6 @@ body {
 
 .text-links a:hover {
   font-weight: bold;
-}
-
-.crow-walking {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  z-index: 3;
-}
-
-.crow-walking img {
-  width: 400px;
-  height: 400px;
 }
 
 .left-side h1 {
