@@ -3,36 +3,37 @@ body {
 	margin: 0;
 	height: 100vh;
 	background-color: #071108;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.backgroundImage {
+	background-image: url('../img/cat-spinning.gif');
+	width: 819px;
+	height: 456px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 20px auto;
 }
 
 .content {
-	margin-bottom: 120px;
+	margin: 20px auto
+	text-align: center;
 }
 
 h1 {
 	color: #FBDFFF;
 	font-size: 64px;
 	font-weight: bold;
-	text-align: center;
 }
 
 h2 {
 	color: #C7DBE6;
 	font-size: 24px;
 	line-height: 62px;
-	text-align: center;
-}
-
-
-.backgroundImage {
-	background-image: url('../img/cat-spinning.gif');
-	width: 819px;
-	height: 456px;
-	margin: 64px auto;
-	background-repeat: no-repeat;
 }
 
 .bottom-bar {
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 100%;
