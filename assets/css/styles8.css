@@ -8,8 +8,8 @@ body {
 
 .backgroundImage {
 	background-image: url('../img/cat-looking-outside.gif');
-	width: 819px;
-	height: 456px;
+	width: 600px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 12px auto;
