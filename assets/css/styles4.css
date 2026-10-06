@@ -19,9 +19,15 @@ body {
 	font-size: 1.2em;
 }
 
-h1 {
+h2 {
 	font-family: "Quicksand", sans-serif;
 	color: var(--soft-brown);
+	font-size: 1em;
+}
+
+h1 {
+	font-family: "Quicksand", sans-serif;
+	color: var(--dark-brown);
 	font-weight: 700;
 	font-size: 2em;
 	margin-bottom: 20px;
@@ -30,6 +36,7 @@ h1 {
 .btn-outline-primary {
 	font-family: "Quicksand", sans-serif;
 	margin-top: 20px;
+	line-height: 1.5;
   --bs-btn-font-weight: 700;
   --bs-btn-color: var(--dust-pink);
   --bs-btn-bg: none;

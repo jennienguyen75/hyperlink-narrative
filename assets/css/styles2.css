@@ -27,18 +27,18 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.btn-outline-primary {
+.next {
 	font-family: "Quicksand", sans-serif;
 	margin-top: 20px;
-  --bs-btn-font-weight: 700;
-  --bs-btn-color: var(--dust-pink);
-  --bs-btn-bg: none;
-  --bs-btn-border-width: 2px;
-  --bs-btn-border-color: var(--dust-pink);
-  --bs-btn-hover-color: white;
-  --bs-btn-hover-bg: var(--dust-pink);
-  --bs-btn-hover-border-color: var(--dust-pink);
-  --bs-btn-active-color: var(--bs-btn-hover-color);
-  --bs-btn-active-bg: #6E5858;
-  --bs-btn-active-border-color: #6E5858;
+	text-decoration: none;
+	font-weight: 500;
+	color: var(--dust-pink);
+}
+
+.next:hover {
+	font-weight: bold;
+}
+
+.next:active {
+	color: #6E5858;
 }
