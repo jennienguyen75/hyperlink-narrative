@@ -1,0 +1,44 @@
+/* styles.css */
+
+:root {
+	--soft-brown: #8B6F5A;
+	--dust-pink: #D9A6A6;
+	--sage: #A8B5A0;
+	--dark-brown: #3D3028;
+}
+
+body {
+	background-image: url("../img/anxious-cat-bg.png");
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	font-family: "Lora", serif;
+	margin-left: 108px;
+	margin-right: 108px;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-family: "Quicksand", sans-serif;
+	color: rgb(0, 196, 0);
+	font-weight: 700;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.next {
+	font-family: "Quicksand", sans-serif;
+	margin-top: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	color: var(--dust-pink);
+}
+
+.next:hover {
+	font-weight: bold;
+}
+
+.next:active {
+	color: #6E5858;
+}
